@@ -2,7 +2,17 @@
 
 ## Getting Started
 
-First, run the development server:
+### Run Ollama with the `openhermes` model
+
+You should make sure you have Ollama installed before running this code.
+
+You should install the `openhermes` model by running the following command:
+
+```bash
+ollama run openhermes
+```
+
+### Run the development server:
 
 ```bash
 npm run dev
@@ -10,7 +20,12 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+If all goes well, you should see something like this:
+
+![[docs/images/screenshot-1.png]]
+
 ---
+
 ## What we use
 
 - [Vercel AI SDK](https://github.com/vercel/ai) - provides React hooks for creating chats (useChat) as well as streams that forward AI responses to the frontend (StreamingTextResponse).
