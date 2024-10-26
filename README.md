@@ -22,7 +22,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 If all goes well, you should see something like this:
 
-![[docs/images/screenshot-1.png]]
+![](docs/images/screenshot-1.png)
 
 ---
 
